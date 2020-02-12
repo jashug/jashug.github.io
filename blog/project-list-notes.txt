@@ -1,0 +1,71 @@
+Project list:
+
+Dates and details are vague and from memory; should be more records on harddrive
+in Seattle.
+
+* Open up python, raw_input("Hello, world! (Press enter to exit): "),
+  trying to make it wait for a different key.
+
+* Multiplication tables practice
+
+* Turtle language
+
+* Gemcraft clone
+
+* Bejewled clone
+
+* Game of Life
+
+* Stanford camp sidescroller shooting game (+ AI opponent)
+  (Actionscript then C#)
+
+* Divisibility tests
+
+* Robot Commander
+
+* Virtual Zome
+
+* Minecraft clone
+
+* Multiplayer space shooter
+
+* Periodic table practice
+
+* Turing complete systems (from mechanical computers to lambda calculus)
+  (Maybe broken up? But I didn't actually do too much with each of these
+   that I remember)
+  - Lambda calculus evaluator (early Python)
+  - Lambda calculus on a Turing machine (UW with Adam)
+  - Fractrain
+  - Mechanical computer (high school CAD)
+
+* Project Euler
+
+* Codewars
+
+* Christmas lights (with Dad)
+
+* MIPS processor
+
+* Japanese vocab tutor
+
+* Chess player
+  (I think I did an early one in Python, and later one in C# or C++)
+
+* Batman's kitchen Capture the Flag Reverse Engineering
+
+* Nand2Tetris (rehash of MIPS processor)
+
+* YNA architecture
+
+* Natural deduction proof finder
+
+* Coq from scratch
+
+* Group theory in Coq
+
+* Right-angled Artin groups in Coq
+
+* More natural metric spaces
+
+* Inductive types in type theory
