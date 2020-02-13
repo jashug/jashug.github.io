@@ -1,3 +1,5 @@
+Name: Fun Wheels to Reinvent
+
 Project list:
 
 Dates and details are vague and from memory; should be more records on harddrive
@@ -29,7 +31,9 @@ in Seattle.
 
 * Multiplayer space shooter
 
-* Periodic table practice
+* Periodic table practice <periodic-table-tutor.html>
+  Dead links:
+  times-table-tutor.html
 
 * Turing complete systems (from mechanical computers to lambda calculus)
   (Maybe broken up? But I didn't actually do too much with each of these
@@ -47,7 +51,9 @@ in Seattle.
 
 * MIPS processor
 
-* Japanese vocab tutor
+* Japanese vocab tutor <japanese-tutor.html>
+  Dead links:
+  times-table-tutor.html
 
 * Chess player
   (I think I did an early one in Python, and later one in C# or C++)
