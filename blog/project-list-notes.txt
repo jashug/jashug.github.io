@@ -8,15 +8,15 @@ in Seattle.
 * Open up python, raw_input("Hello, world! (Press enter to exit): "),
   trying to make it wait for a different key.
 
-* Multiplication tables practice
++ Multiplication tables practice <times-table-tutor.html>
 
-* Turtle language
-
-* Gemcraft clone
++ Gemcraft clone <match-three.html>
 
 * Bejewled clone
 
 * Game of Life
+
+* Turtle language
 
 * Stanford camp sidescroller shooting game (+ AI opponent)
   (Actionscript then C#)
@@ -54,6 +54,8 @@ in Seattle.
 * Japanese vocab tutor <japanese-tutor.html>
   Dead links:
   times-table-tutor.html
+
+* Decoding web protocols
 
 * Chess player
   (I think I did an early one in Python, and later one in C# or C++)
