@@ -10,9 +10,9 @@ in Seattle.
 
 + Multiplication tables practice <times-table-tutor.html>
 
-+ Gemcraft clone <match-three.html>
+* Gemcraft clone
 
-* Bejewled clone
++ Bejewled clone <match-three.html>
 
 * Game of Life
 
@@ -77,3 +77,8 @@ in Seattle.
 * More natural metric spaces
 
 * Inductive types in type theory
+
+---
+
+Particularly want to excavate:
+Turtle language

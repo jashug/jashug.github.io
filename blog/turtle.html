@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8"/>
+<meta name="author" content="Jasper Hugunin"/>
+
+<link rel="icon" type="image/png" href="/favicon.png"/>
+<link rel="stylesheet" href="style.css"/>
+
+<title>Turtle Language</title>
+</head>
+
+<body>
+<article>
+<h1>Turtle Language</h1>
+<p>
+An interpreter for a programming language combining turtle graphics and BASIC.
+</p>
+
+<section>
+<h2>Context</h2>
+<p>
+In elementary school, every week or so we went to the computer lab.
+Sometimes we practiced typing or other things, but sometimes we got to play
+a certain game. The game had a turtle on the screen that moved in response
+to typed commands, and you had to move around the screen to win.
+</p>
+<p>
+Upon learning that Python has a <code>turtle</code> module to do the same sort
+of thing, I started playing around with it at home. I could have been content
+to work from within Python, but I had also been thinking about programming
+languages more generally, including compilers and interpreters like I knew my
+dad worked on.
+</p>
+<p>
+As a result, I worked on writing an interpreter in Python that would read
+and execute commands from a text file written in my own made-up language.
+</p>
+</section>
+
+<section>
+<h2>Result</h2>
+<p>
+In the end, I created a pretty complex language,
+and drew lots of pretty pictures.
+When I'm next in Seattle I ought to dig the source out of my backups.
+</p>
+<p>
+My language started with simple commands to move the turtle around the screen:
+go forward, turn left, and so on.
+But without the ability to loop, drawing pictures gets boring pretty fast.
+I then added control constructs like loops, if-else statements, and variables,
+again with an arbitrary syntax inspired by BASIC
+(why BASIC and not Python I do not remember).
+</p>
+<p>
+In any case, the control constructs looked nothing like the drawing constructs.
+The language grew organically, with me adding new ideas as I came up with them
+and not worrying too much about if they made sense together.
+Looking back, the language was a bit of a mess, but it was good enough to
+draw fun pictures and let me think about interesting choices programming
+languages make and gave me a better
+understanding of the difference between a compiler and an interpreter.
+</p>
+</section>
+
+<section>
+<h2>Skills</h2>
+<p>
+<ul>
+<li>Programming language design
+  <ul>
+  <li>Syntax</li>
+  <li>Parsing</li>
+  <li>Name scope</li>
+  </ul>
+</li>
+<li>Building an interpreter for a domain-specific language</li>
+</ul>
+</p>
+</section>
+
+<section>
+<h2>Resources</h2>
+<p>
+If you want to try this project yourself, maybe start with a
+program that asks the user for commands like <kbd>forward 100</kbd>, then
+runs that command using the <code>turtle</code> module.
+Once you've got that working for simple commands, have it read the commands
+from a file instead.
+</p>
+<p>
+If that works, you've successfully written an interpreter.
+Now you can start adding features to your language to do whatever you want.
+</p>
+<ul>
+<li>
+  <a href="https://en.wikipedia.org/wiki/Turtle_graphics">
+  Turtle graphics
+  </a>
+</li>
+<li>
+  <a href="https://docs.python.org/3.7/library/turtle.html">
+  Python <code>turtle</code> module documentation
+  </a>
+</li>
+</ul>
+</section>
+
+</article>
+</body>
+
+</html>
