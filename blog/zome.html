@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8"/>
+<meta name="author" content="Jasper Hugunin"/>
+
+<link rel="icon" type="image/png" href="/favicon.png"/>
+<link rel="stylesheet" href="style.css"/>
+
+<title>Virtual Construction Set</title>
+</head>
+
+<body>
+<article>
+<h1>Virtual Construction Set</h1>
+<p>
+Build with virtual Zome&trade; pieces.
+</p>
+
+<section>
+<h2>Context</h2>
+<p>
+There are lots of toys aimed at kids where you have a bunch of plastic pieces
+that you snap together to make things. Best known is probably LEGO,
+but there are also K'Nex, ZOOB, Lincoln Logs, Zome, and more.
+</p>
+<p>
+I played with many of these as a kid, but in middle school I was currently
+interested in Zome in particular. A family friend got me a starter kit that
+came with a book about using Zome to explore mathematics,
+which I found interesting.
+</p>
+<p>
+I had also been making several HTML games using the canvas element, and trying
+to make something 3D sounded interesting.
+</p>
+</section>
+
+<section>
+<h2>Result</h2>
+<p>
+I created a system which lets you create and view Zome models in 3D.
+Using the system, I created several models including the shadow of a
+hyperdodecahedron, which I now use as the favicon for this website and
+a profile picture online.
+</p>
+<figure>
+<img src="hyperdo.png">
+<figcaption>
+The shadow of the hyperdodecahedron (also known as the hyperdo),
+built with my virtual Zome kit.
+</figcaption>
+</figure>
+<p>
+The controls for looking around and building were a pretty confusing mix of
+keyboard shortcuts and mouse movement, at least according to my dad when he
+tried to use it. They made perfect sense to me! But coming up with a better
+control scheme would have been a good next step.
+</p>
+<p>
+Another thing I wanted to do was to add a tool to do symmetry automatically.
+Lots of Zome models have lots of symmetry (both reflective and rotational),
+and working virtually is a great opportunity
+to let the computer do the repetitive work for you.
+</p>
+<p>
+You could also save and load models, which were stored on the server.
+However, this system was terrible from a security perspective because it
+was implemented using eval, making it trivial to inject arbitrary code,
+which I realized later after learning more about web security.
+</p>
+<p>
+One fun thing was the math behind how to specify the positions of the balls.
+In Zome, the lengths of the struts get bigger by factors of the golden ratio
+&phi;, so coordinates are irrational.
+It was important to me to be able to reliably
+compare whether two balls were at the same position or not, so I didn't want
+to rely on floating point numbers. What I ended up doing was representing
+positions in what I called at the time &ldquo;base phi&rdquo;, but I would now
+call the algebraic extension of the integers by the golden ratio.
+</p>
+<p>
+Anyways, the trick was to represent positions with two integers
+<var>a</var> and <var>b</var> representing <var>a</var> + <var>b</var>&#8729;&phi;.
+Since &phi;<sup>2</sup> = &phi; + 1, you can multiply these positions by &phi;,
+and since they are just two integers underneeth, they are easy to compare exactly.
+</p>
+</section>
+
+<section>
+<h2>Skills</h2>
+<p>
+<ul>
+<li>3D graphics using WebGL</li>
+<li>Math with the golden ratio</li>
+<li>Control scheme design</li>
+<li>Server-side account management</li>
+</ul>
+</p>
+</section>
+
+<section>
+<h2>Resources</h2>
+<p>
+If you want to try this project yourself, choose a construction kit you want
+to simulate. Then learn how to draw the pieces using WebGL. Then decide how
+you want to represent models (connected groups of pieces), and what control
+scheme you want to use for building.
+</p>
+</section>
+
+</article>
+</body>
+
+</html>

@@ -16,7 +16,7 @@ in Seattle.
 
 * Game of Life
 
-* Turtle language
++ Turtle language <turtle.html>
 
 * Stanford camp sidescroller shooting game (+ AI opponent)
   (Actionscript then C#)
@@ -25,7 +25,7 @@ in Seattle.
 
 * Robot Commander
 
-* Virtual Zome
++ Virtual Zome <zome.html>
 
 * Minecraft clone
 
