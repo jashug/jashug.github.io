@@ -82,3 +82,5 @@ in Seattle.
 
 Particularly want to excavate:
 Turtle language
+Zome
+MIPS processor
